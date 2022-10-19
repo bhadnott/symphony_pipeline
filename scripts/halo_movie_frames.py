@@ -18,14 +18,14 @@ try:
 except:
     def pc(c): return c
 
-SUITE = "SymphonyMilkyWayLR"
+SUITE = "SymphonyMilkyWay"
 SUB_INDEX = 5
 HOST_INDEX = 4
 VMIN, VMAX = 2.5, 7.0
 K = 128
 CMAP = "bone"
 
-BASE_OUT_DIR = "/home/users/phil1/code/src/github.com/phil-mansfield/symphony_pipeline/plots/movie_frames"
+BASE_OUT_DIR = "/Users/brynehadnott/Documents/src/symphony_pipeline/plots/movie_frames"
 
 def spline(x):
     r1 = x <= 1
